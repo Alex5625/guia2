@@ -1,0 +1,21 @@
+Identificador,Descripción,Región Genómica,posicion,Especie
+MUT001,Sustitución de A por G en el gen ABC,Gen ABC, posición 1023,Homo sapiens
+MUT002,Deleción de 3 nucleótidos en el gen XYZ,Gen XYZ, posición 455-457,Mus musculus
+MUT003,Inserción de una secuencia repetida en el gen PQR,Gen PQR, posición 789-796,Drosophila melanogaster
+MUT004,Sustitución de C por T en el gen LMN,Gen LMN, posición 567,Canis lupus familiaris
+MUT005,Duplicación de un segmento de ADN en el gen OPQ,Gen OPQ, posición 200-300,Rattus norvegicus
+MUT006,Inserción de un nucleótido en el gen UVW,Gen UVW, posición 123,Homo sapiens
+MUT007,Sustitución de G por A en el gen RST,Gen RST, posición 890,Tetraodon nigroviridis
+MUT008,Deleción de un nucleótido en el gen XYZ,Gen XYZ, posición 678-679,Arabidopsis thaliana
+MUT009,Inserción de una secuencia repetida en el gen DEF,Gen DEF, posición 400-407,Saccharomyces cerevisiae
+MUT010,Sustitución de A por T en el gen GHI,Gen GHI, posición 555,Canis familiaris
+MUT011,Duplicación de un segmento de ADN en el gen JKL,Gen JKL, posición 100-200,Gallus gallus
+MUT012,Deleción de 2 nucleótidos en el gen MNO,Gen MNO, posición 300-301,Pan troglodytes
+MUT013,Inserción de un nucleótido en el gen PQR,Gen PQR, posición 600,Drosophila melanogaster
+MUT014,Sustitución de T por C en el gen UVW,Gen UVW, posición 987,Homo sapiens
+MUT015,Deleción de un segmento de ADN en el gen LMN,Gen LMN, posición 400-500,Mus musculus
+MUT016,Inserción de una secuencia repetida en el gen STU,Gen STU, posición 800-807,Tetraodon nigroviridis
+MUT017,Sustitución de G por T en el gen XYZ,Gen XYZ, posición 345,Apis mellifera
+MUT018,Duplicación de un nucleótido en el gen NOP,Gen NOP, posición 1000,Rattus norvegicus
+MUT019,Deleción de 4 nucleótidos en el gen QRS,Gen QRS, posición 700-703,Drosophila melanogaster
+MUT020,Sustitución de C por G en el gen UVW,Gen UVW, posición 600,Canis lupus familiaris     
