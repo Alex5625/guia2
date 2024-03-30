@@ -20,9 +20,22 @@ class MutacionGenetica():
         self.__especie = arreglo[4]
 
 
-    def get_entregar_datos(self):
+    def get_entrega_indentificador(self):
+        return f"\nidentificador: {self.__identificador}"
         
-        return f"\nidentificador: {self.__identificador} \ndescripcion: {self.__descripcion} \nregion genomica: {self.__region_genomica} \nposicion: {self.__posicion} \nespecie: {self.__especie}"
+    def get_entrega_descripcion(self):
+
+        return f"\ndescripcion: {self.__descripcion}" 
+    def get_entrega_regionGenomica(self):
+
+        return f"\nregion genomica: {self.__region_genomica}" 
+    def get_entrega_posicion(self):
+
+        return f"\nposicion: {self.__posicion}"
+
+    def get_entrega_especie(self):
+
+        return f"\nespecie: {self.__especie}"
 
 
  #EN EL METODO BUSCAR CON UN CICLO FOR SI TIENE UN (-) NO AFECTA A UN UNICO NUCLEOTIDO

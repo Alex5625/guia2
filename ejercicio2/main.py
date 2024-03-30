@@ -17,7 +17,10 @@ if __name__ == "__main__":
             if contador != 0:
                 genoma.set_inicializar_datos(fila)
 
-                print(genoma.get_entregar_datos())
+                print(genoma.get_entrega_descripcion())
+                print(genoma.get_entrega_regionGenomica())
+                print(genoma.get_entrega_especie())
+
 
                 if genoma.set_es_puntual():
                     print("ESTA SECUENCIA ES PUNTUAL")
