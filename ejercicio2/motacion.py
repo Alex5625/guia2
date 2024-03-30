@@ -11,28 +11,31 @@ class MutacionGenetica():
 
         self.__especie = None
 
-    def set_inicializar_datos(self, identificador, descripcion, region_genomica, posicion, especie):
+    def set_inicializar_datos(self, arreglo):
 
-        self.__identificador = identificador
-        self.__descripcion = descripcion
-        self.__region_genomica = region_genomica
-        self.__posicion = posicion
-        self.__especie = especie
+        self.__identificador = arreglo[0]
+        self.__descripcion = arreglo[1]
+        self.__region_genomica = arreglo[2]
+        self.__posicion = arreglo[3]
+        self.__especie = arreglo[4]
 
 
     def get_entregar_datos(self):
         
-        return f"identificador: {self.__identificador} \ndescripcion: {self.__descripcion} \nregion genomica: {self.__region_genomica} \nposicion: {self.__posicion} \nespecie: {self.__especie}"
+        return f"\nidentificador: {self.__identificador} \ndescripcion: {self.__descripcion} \nregion genomica: {self.__region_genomica} \nposicion: {self.__posicion} \nespecie: {self.__especie}"
 
 
  #EN EL METODO BUSCAR CON UN CICLO FOR SI TIENE UN (-) NO AFECTA A UN UNICO NUCLEOTIDO
     def set_es_puntual(self):
-        letra = True
+
         for i in range(len(self.__posicion)):
             letra = self.__posicion[i]
-
+            # print(f"LA LETRA QUE SE VA RECORRIENDO ES: *{letra}*")
             if letra == "-":
+                # print("ENTRA EN LA CONDICION")
                 # print("Esta mutacion no es puntual")
                 return False
+            
+        return True
             
 

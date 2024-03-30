@@ -8,11 +8,11 @@ class Secuencia():
         self.__secuencia = None
         self.__especie = None
 
-    def set_iniciar_datos(self,identificador,secuencia,especie):
-        
-        self.__identificador = identificador
-        self.__secuencia = secuencia
-        self.__especie = especie
+    def set_iniciar_datos(self,arreglo):
+    
+        self.__identificador = arreglo[0]
+        self.__secuencia = arreglo[1]
+        self.__especie = arreglo[2]
 
         pass
 
@@ -27,8 +27,20 @@ class Secuencia():
         palabra = ""
         for i in range(len(self.__secuencia)):
             letra = self.__secuencia[i]
+            
+            #es entregar la hebra complementaria de adn por como funciona la transcripcion
             if letra == "T":
+                letra = "A"
+
+            elif letra == "A":
                 letra = "U"
+
+            elif letra == "C":
+                letra = "G"
+
+            elif letra == "G":
+                letra = "C"
+
             palabra = palabra + letra
             # print(palabra)
 

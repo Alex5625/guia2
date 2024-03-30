@@ -1,0 +1,6 @@
+Identificador,Descripción,Región Genómica,posicion,Especie
+MUT001,Sustitucion de A por G en el gen ABC,Gen ABC, posicion 1023,Homo sapiens
+MUT002,Delecion de 3 nucleótidos en el gen XYZ,Gen XYZ, posicion 455-457,Mus musculus
+MUT003,Insercion de una secuencia repetida en el gen PQR,Gen PQR, posicion 789-796,Drosophila melanogaster
+MUT004,Sustitucion de C por T en el gen LMN,Gen LMN, posicion 567,Canis lupus familiaris
+MUT005,Duplicacion de un segmento de ADN en el gen OPQ,Gen OPQ, posicion 200-300,Rattus norvegicus
