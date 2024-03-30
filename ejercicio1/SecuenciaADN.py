@@ -17,8 +17,14 @@ class Secuencia():
         pass
 
 
-    def get_nambre(self):
-        return f"{self.__identificador}, {self.__secuencia}, {self.__especie}"
+    def get_identificador(self):
+        return f"{self.__identificador}"
+     
+    def get_secuencia(self):
+        return f"{self.__secuencia}" 
+    
+    def get_especie(self):
+        return f"{self.__especie}"
     
     def get_largo_secuencia(self):
         return f"El largo de la secuencia es: {len(self.__secuencia)}"

@@ -23,10 +23,13 @@ if __name__ == "__main__":
                 # print(f"El arreglo es: {fila}")
                 # se recorrera el archivo insertando dentro de la clase el arreglo y asi usando los parametros deseados
                 secuencia1.set_iniciar_datos(fila)
-                print(f"\n{secuencia1.get_nambre()}")
+                print(f"\n{secuencia1.get_identificador()}")
+                print(f"\n{secuencia1.get_secuencia()}")
+                print(f"\n{secuencia1.get_especie()}")
+
                 print(f"{secuencia1.get_largo_secuencia()}")
                 secuencia1.set_modificaADN_en_ARN()
-                print(f"LA SECUENCIA MODIFICADA ES: {secuencia1.get_nambre()}\n")
+                print(f"LA SECUENCIA MODIFICADA ES: {secuencia1.get_secuencia()}\n")
 
 
             contador += 1
