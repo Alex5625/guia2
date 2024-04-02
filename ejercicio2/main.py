@@ -22,6 +22,7 @@ if __name__ == "__main__":
                 print(genoma.get_entrega_especie())
 
 
+    #La manera de encontrar si la mutacion era puntual o no, fue por la posicion del gen en donde sufria la modificacion.
                 if genoma.set_es_puntual():
                     print("ESTA SECUENCIA ES PUNTUAL")
                 else:
